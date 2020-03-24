@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Client", "Client\Default\Client.vcxproj", "{CD3A5553-BC49-402F-A12E-54F06FFB7122}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Utility", "Engine\Utility\Default\Utility.vcxproj", "{35530C8F-9429-424E-B920-B52808056E4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00.Client", "00.Client", "{563A144E-0547-4778-A285-4DF7BD752EFC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Engine", "01.Engine", "{CE4716FC-4476-4B20-B099-CA332D6F1256}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00.System", "00.System", "{7FCA7F58-4165-4B89-A39D-91D9D6BEF5C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Utility", "01.Utility", "{1A8FE3ED-E990-4830-A80F-9FF00944861A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "99.Headers", "99.Headers", "{374CF7EF-8145-4A6C-AEB0-6014B308C437}"
+	ProjectSection(SolutionItems) = preProject
+		Engine\Headers\Engine_Base.h = Engine\Headers\Engine_Base.h
+		Engine\Headers\Engine_Constant.h = Engine\Headers\Engine_Constant.h
+		Engine\Headers\Engine_Defines.h = Engine\Headers\Engine_Defines.h
+		Engine\Headers\Engine_Enum.h = Engine\Headers\Engine_Enum.h
+		Engine\Headers\Engine_Function.h = Engine\Headers\Engine_Function.h
+		Engine\Headers\Engine_Functor.h = Engine\Headers\Engine_Functor.h
+		Engine\Headers\Engine_Macro.h = Engine\Headers\Engine_Macro.h
+		Engine\Headers\Engine_Struct.h = Engine\Headers\Engine_Struct.h
+		Engine\Headers\Engine_Typedef.h = Engine\Headers\Engine_Typedef.h
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "System", "Engine\System\Default\System.vcxproj", "{1723DF79-8571-49B0-A12C-049BAD3540F5}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD3A5553-BC49-402F-A12E-54F06FFB7122}.Debug|x64.ActiveCfg = Debug|x64
+		{CD3A5553-BC49-402F-A12E-54F06FFB7122}.Debug|x64.Build.0 = Debug|x64
+		{CD3A5553-BC49-402F-A12E-54F06FFB7122}.Debug|x86.ActiveCfg = Debug|Win32
+		{CD3A5553-BC49-402F-A12E-54F06FFB7122}.Debug|x86.Build.0 = Debug|Win32
+		{CD3A5553-BC49-402F-A12E-54F06FFB7122}.Release|x64.ActiveCfg = Release|x64
+		{CD3A5553-BC49-402F-A12E-54F06FFB7122}.Release|x64.Build.0 = Release|x64
+		{CD3A5553-BC49-402F-A12E-54F06FFB7122}.Release|x86.ActiveCfg = Release|Win32
+		{CD3A5553-BC49-402F-A12E-54F06FFB7122}.Release|x86.Build.0 = Release|Win32
+		{35530C8F-9429-424E-B920-B52808056E4F}.Debug|x64.ActiveCfg = Debug|x64
+		{35530C8F-9429-424E-B920-B52808056E4F}.Debug|x64.Build.0 = Debug|x64
+		{35530C8F-9429-424E-B920-B52808056E4F}.Debug|x86.ActiveCfg = Debug|Win32
+		{35530C8F-9429-424E-B920-B52808056E4F}.Debug|x86.Build.0 = Debug|Win32
+		{35530C8F-9429-424E-B920-B52808056E4F}.Release|x64.ActiveCfg = Release|x64
+		{35530C8F-9429-424E-B920-B52808056E4F}.Release|x64.Build.0 = Release|x64
+		{35530C8F-9429-424E-B920-B52808056E4F}.Release|x86.ActiveCfg = Release|Win32
+		{35530C8F-9429-424E-B920-B52808056E4F}.Release|x86.Build.0 = Release|Win32
+		{1723DF79-8571-49B0-A12C-049BAD3540F5}.Debug|x64.ActiveCfg = Debug|x64
+		{1723DF79-8571-49B0-A12C-049BAD3540F5}.Debug|x64.Build.0 = Debug|x64
+		{1723DF79-8571-49B0-A12C-049BAD3540F5}.Debug|x86.ActiveCfg = Debug|Win32
+		{1723DF79-8571-49B0-A12C-049BAD3540F5}.Debug|x86.Build.0 = Debug|Win32
+		{1723DF79-8571-49B0-A12C-049BAD3540F5}.Release|x64.ActiveCfg = Release|x64
+		{1723DF79-8571-49B0-A12C-049BAD3540F5}.Release|x64.Build.0 = Release|x64
+		{1723DF79-8571-49B0-A12C-049BAD3540F5}.Release|x86.ActiveCfg = Release|Win32
+		{1723DF79-8571-49B0-A12C-049BAD3540F5}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CD3A5553-BC49-402F-A12E-54F06FFB7122} = {563A144E-0547-4778-A285-4DF7BD752EFC}
+		{35530C8F-9429-424E-B920-B52808056E4F} = {1A8FE3ED-E990-4830-A80F-9FF00944861A}
+		{7FCA7F58-4165-4B89-A39D-91D9D6BEF5C2} = {CE4716FC-4476-4B20-B099-CA332D6F1256}
+		{1A8FE3ED-E990-4830-A80F-9FF00944861A} = {CE4716FC-4476-4B20-B099-CA332D6F1256}
+		{374CF7EF-8145-4A6C-AEB0-6014B308C437} = {CE4716FC-4476-4B20-B099-CA332D6F1256}
+		{1723DF79-8571-49B0-A12C-049BAD3540F5} = {7FCA7F58-4165-4B89-A39D-91D9D6BEF5C2}
+	EndGlobalSection
+EndGlobal

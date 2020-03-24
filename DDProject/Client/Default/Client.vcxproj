@@ -1,0 +1,595 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CD3A5553-BC49-402F-A12E-54F06FFB7122}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Client</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <SccProjectName>Svn</SccProjectName>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\Bin\Debug\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\Bin\Release\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../ThirdParty\Headers\Vld;../../ThirdParty\Headers\TinyXml2;../../ThirdParty/Headers/DirectX_SDK/;../../Engine/Headers/;../Headers/;../../Engine/Utility/Codes/;../../Engine/System/Codes/;../../ThirdParty/Headers/fmod/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;vld.lib;ws2_32.lib;fmodex_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../../ThirdParty/Librarys/vld/Win32/;../../ThirdParty/Librarys/DirectX_SDK/x86/;../../ThirdParty/Librarys/fmod/</AdditionalLibraryDirectories>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+    <Manifest>
+      <EnableDpiAwareness>false</EnableDpiAwareness>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../ThirdParty\Headers\Vld;../../ThirdParty\Headers\TinyXml2;../../ThirdParty/Headers/DirectX_SDK/;../../Engine/Headers/;../Headers/;../../Engine/Utility/Codes/;../../Engine/System/Codes/;../../ThirdParty/Headers/fmod/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;vld.lib;ws2_32.lib;fmodex_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../../ThirdParty/Librarys/vld/Win32/;../../ThirdParty/Librarys/DirectX_SDK/x86/;../../ThirdParty/Librarys/fmod/</AdditionalLibraryDirectories>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\ThirdParty\Headers\TinyXml2\tinyxml2.h" />
+    <ClInclude Include="..\Codes\3DMaxObject.h" />
+    <ClInclude Include="..\Codes\Accessory1.h" />
+    <ClInclude Include="..\Codes\Accessory2.h" />
+    <ClInclude Include="..\Codes\ActionCamera.h" />
+    <ClInclude Include="..\Codes\Aura.h" />
+    <ClInclude Include="..\Codes\Back_Logo.h" />
+    <ClInclude Include="..\Codes\Blockade.h" />
+    <ClInclude Include="..\Codes\Chat_ID.h" />
+    <ClInclude Include="..\Codes\Computer_Goblin.h" />
+    <ClInclude Include="..\Codes\Effect_Decal.h" />
+    <ClInclude Include="..\Codes\Effect_Magnetic_Sphere.h" />
+    <ClInclude Include="..\Codes\Effect_Mesh_SkyBeam.h" />
+    <ClInclude Include="..\Codes\FloatCamera.h" />
+    <ClInclude Include="..\Codes\Font_BossHP.h" />
+    <ClInclude Include="..\Codes\Camera_Manager.h" />
+    <ClInclude Include="..\Codes\Chat_Message.h" />
+    <ClInclude Include="..\Codes\CollisionManager.h" />
+    <ClInclude Include="..\Codes\CollisionObject.h" />
+    <ClInclude Include="..\Codes\CrossBowArrow.h" />
+    <ClInclude Include="..\Codes\Crystal.h" />
+    <ClInclude Include="..\Codes\CrystalLight.h" />
+    <ClInclude Include="..\Codes\EasterEgg.h" />
+    <ClInclude Include="..\Codes\Effect_Mesh_FogGroup1.h" />
+    <ClInclude Include="..\Codes\Effect_Mesh_FogGroup4.h" />
+    <ClInclude Include="..\Codes\Effect_Mesh_FogPlane.h" />
+    <ClInclude Include="..\Codes\Effect_Mesh_GlowBall.h" />
+    <ClInclude Include="..\Codes\Effect_Mesh_Projectile1.h" />
+    <ClInclude Include="..\Codes\Effect_Mesh_SplosionRings.h" />
+    <ClInclude Include="..\Codes\Effect_Mesh_Swirly.h" />
+    <ClInclude Include="..\Codes\Effect_Single_Fog.h" />
+    <ClInclude Include="..\Codes\Font_Exp.h" />
+    <ClInclude Include="..\Codes\Font_KillEnemies.h" />
+    <ClInclude Include="..\Codes\Font_PlayerDamage.h" />
+    <ClInclude Include="..\Codes\Font_RespawnTime.h" />
+    <ClInclude Include="..\Codes\Goblin_Camera.h" />
+    <ClInclude Include="..\Codes\HallOfHeroes.h" />
+    <ClInclude Include="..\Codes\LastManObserver.h" />
+    <ClInclude Include="..\Codes\LightningTower.h" />
+    <ClInclude Include="..\Codes\Panel_Login.h" />
+    <ClInclude Include="..\Codes\LowHp.h" />
+    <ClInclude Include="..\Codes\MissileTower.h" />
+    <ClInclude Include="..\Codes\Monster_Demon.h" />
+    <ClInclude Include="..\Codes\Panel_Boss.h" />
+    <ClInclude Include="..\Codes\Panel_ExpBar.h" />
+    <ClInclude Include="..\Codes\Panel_MonsterKill.h" />
+    <ClInclude Include="..\Codes\Player_Goblin.h" />
+    <ClInclude Include="..\Codes\Player_ID.h" />
+    <ClInclude Include="..\Codes\Player_Left.h" />
+    <ClInclude Include="..\Codes\Present.h" />
+    <ClInclude Include="..\Codes\Ribbon.h" />
+    <ClInclude Include="..\Codes\Scene_Lobby.h" />
+    <ClInclude Include="..\Codes\Scene_Stage2.h" />
+    <ClInclude Include="..\Codes\SplashDamage.h" />
+    <ClInclude Include="..\Codes\Stage2_SkyBall.h" />
+    <ClInclude Include="..\Codes\Stage2_SkyBox.h" />
+    <ClInclude Include="..\Codes\StandCamera.h" />
+    <ClInclude Include="..\Codes\Effect_2D.h" />
+    <ClInclude Include="..\Codes\Effect_Mesh.h" />
+    <ClInclude Include="..\Codes\Effect_Mesh_AuraSphere.h" />
+    <ClInclude Include="..\Codes\Effect_Mesh_Bolt.h" />
+    <ClInclude Include="..\Codes\Effect_Mesh_ElectricGroup1.h" />
+    <ClInclude Include="..\Codes\Effect_Mesh_ElectricGroup2.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Effect_Mesh_LightningTree.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Effect_Mesh_ManaBomb.h" />
+    <ClInclude Include="..\Codes\Effect_Mesh_Shield.h" />
+    <ClInclude Include="..\Codes\Effect_Mesh_Spiral.h" />
+    <ClInclude Include="..\Codes\Effect_Mesh_Wave.h" />
+    <ClInclude Include="..\Codes\Effect_Particle.h" />
+    <ClInclude Include="..\Codes\Effect_RectParticle.h" />
+    <ClInclude Include="..\Codes\Effect_Single.h" />
+    <ClInclude Include="..\Codes\Effect_Trail.h" />
+    <ClInclude Include="..\Codes\FireTower.h" />
+    <ClInclude Include="..\Codes\Font_ActivateCrystal.h" />
+    <ClInclude Include="..\Codes\Font_Damage.h" />
+    <ClInclude Include="..\Codes\Font_DefenseUnits.h" />
+    <ClInclude Include="..\Codes\Font_FPS.h" />
+    <ClInclude Include="..\Codes\Font_NavMesh.h" />
+    <ClInclude Include="..\Codes\Font_NextEnemies.h" />
+    <ClInclude Include="..\Codes\Font_Perspective.h" />
+    <ClInclude Include="..\Codes\Font_Player.h" />
+    <ClInclude Include="..\Codes\Font_Wave.h" />
+    <ClInclude Include="..\Codes\FrustumManager.h" />
+    <ClInclude Include="..\Codes\LeftDoor.h" />
+    <ClInclude Include="..\Codes\MapTexture.h" />
+    <ClInclude Include="..\Codes\MenuMap.h" />
+    <ClInclude Include="..\Codes\Missile.h" />
+    <ClInclude Include="..\Codes\Monster_Arrow.h" />
+    <ClInclude Include="..\Codes\Monster_DarkElfArcher.h" />
+    <ClInclude Include="..\Codes\MouseCol.h" />
+    <ClInclude Include="..\Codes\MousePointer.h" />
+    <ClInclude Include="..\Codes\MyEffect.h" />
+    <ClInclude Include="..\Codes\OldMap.h" />
+    <ClInclude Include="..\Codes\Panel_newBar.h" />
+    <ClInclude Include="..\Codes\Player_CrossBow.h" />
+    <ClInclude Include="..\Codes\Player_Huntress.h" />
+    <ClInclude Include="..\Codes\RightDoor.h" />
+    <ClInclude Include="..\Codes\Scene_Menu.h" />
+    <ClInclude Include="..\Codes\SplashMissile.h" />
+    <ClInclude Include="..\Codes\StaticUI.h" />
+    <ClInclude Include="..\Codes\StrikerTower.h" />
+    <ClInclude Include="..\Codes\SummonCamera.h" />
+    <ClInclude Include="..\Codes\TestScene_SeoChan2.h" />
+    <ClInclude Include="..\Codes\Text_Boss.h" />
+    <ClInclude Include="..\Codes\Text_Build.h" />
+    <ClInclude Include="..\Codes\Text_Combat.h" />
+    <ClInclude Include="..\Codes\Text_DefenseUnits.h" />
+    <ClInclude Include="..\Codes\Text_Electric.h" />
+    <ClInclude Include="..\Codes\Text_GameStart.h" />
+    <ClInclude Include="..\Codes\Text_Info.h" />
+    <ClInclude Include="..\Codes\UI_Check.h" />
+    <ClInclude Include="..\Codes\Text_NextEnemies.h" />
+    <ClInclude Include="..\Codes\Text_Phase.h" />
+    <ClInclude Include="..\Codes\Text_PressStart.h" />
+    <ClInclude Include="..\Codes\Text_RespawnIn.h" />
+    <ClInclude Include="..\Codes\Text_Title.h" />
+    <ClInclude Include="..\Codes\Text_ToLobby.h" />
+    <ClInclude Include="..\Codes\Text_Tower.h" />
+    <ClInclude Include="..\Codes\Text_Wave.h" />
+    <ClInclude Include="..\Codes\Chat.h" />
+    <ClInclude Include="..\Codes\ClientNetwork.h" />
+    <ClInclude Include="..\Codes\DynamicCamera.h" />
+    <ClInclude Include="..\Codes\DynamicObject.h" />
+    <ClInclude Include="..\Codes\Effect_Frame.h" />
+    <ClInclude Include="..\Codes\FireTorch.h" />
+    <ClInclude Include="..\Codes\Font_Hp.h" />
+    <ClInclude Include="..\Codes\Font_Level.h" />
+    <ClInclude Include="..\Codes\Font_MaxHp.h" />
+    <ClInclude Include="..\Codes\Font_MaxMp.h" />
+    <ClInclude Include="..\Codes\Font_Mp.h" />
+    <ClInclude Include="..\Codes\Font_Score.h" />
+    <ClInclude Include="..\Codes\Monster_Goblin.h" />
+    <ClInclude Include="..\Codes\Loading.h" />
+    <ClInclude Include="..\Codes\Monster_Kobold.h" />
+    <ClInclude Include="..\Codes\Monster_OrcBruiser.h" />
+    <ClInclude Include="..\Codes\Font_Number.h" />
+    <ClInclude Include="..\Codes\Panel_Wave.h" />
+    <ClInclude Include="..\Codes\Text_Name_Level.h" />
+    <ClInclude Include="..\Codes\OrthographicUI.h" />
+    <ClInclude Include="..\Codes\Panel_Level.h" />
+    <ClInclude Include="..\Codes\Panel_SkillIcon.h" />
+    <ClInclude Include="..\Codes\PerspectiveUI.h" />
+    <ClInclude Include="..\Codes\Player.h" />
+    <ClInclude Include="..\Codes\PlayerObserver.h" />
+    <ClInclude Include="..\Codes\Player_Mage.h" />
+    <ClInclude Include="..\Codes\Player_Monk.h" />
+    <ClInclude Include="..\Codes\Player_Spear.h" />
+    <ClInclude Include="..\Codes\Player_Staff.h" />
+    <ClInclude Include="..\Codes\RecordCamera.h" />
+    <ClInclude Include="..\Codes\SceneObserver.h" />
+    <ClInclude Include="..\Codes\Scene_Transition.h" />
+    <ClInclude Include="..\Codes\Select_Logo.h" />
+    <ClInclude Include="..\Codes\MainApp.h" />
+    <ClInclude Include="..\Codes\Scene_Logo.h" />
+    <ClInclude Include="..\Codes\Scene_Stage.h" />
+    <ClInclude Include="..\Codes\MagusQuarters.h" />
+    <ClInclude Include="..\Codes\MiniMap.h" />
+    <ClInclude Include="..\Codes\SkillIcon.h" />
+    <ClInclude Include="..\Codes\StaticCamera.h" />
+    <ClInclude Include="..\Codes\StaticObject.h" />
+    <ClInclude Include="..\Codes\Terrain.h" />
+    <ClInclude Include="..\Codes\TestScene_BackChul.h" />
+    <ClInclude Include="..\Codes\TestScene_MinKyeong.h" />
+    <ClInclude Include="..\Codes\TestScene_SeoChan.h" />
+    <ClInclude Include="..\Codes\TestScene_SeungHo.h" />
+    <ClInclude Include="..\Codes\Text_Score.h" />
+    <ClInclude Include="..\Codes\BlockGroup.h" />
+    <ClInclude Include="..\Codes\Title.h" />
+    <ClInclude Include="..\Codes\Tower.h" />
+    <ClInclude Include="..\Codes\TowerCamera.h" />
+    <ClInclude Include="..\Codes\TowerRadius.h" />
+    <ClInclude Include="..\Codes\TowerRange.h" />
+    <ClInclude Include="..\Codes\TowerRange2.h" />
+    <ClInclude Include="..\Codes\TrapMine.h" />
+    <ClInclude Include="..\Codes\TresureBox.h" />
+    <ClInclude Include="..\Codes\UI.h" />
+    <ClInclude Include="..\Codes\UI_MapTitle.h" />
+    <ClInclude Include="..\Codes\UI_Skill.h" />
+    <ClInclude Include="..\Codes\Vertical_Hp.h" />
+    <ClInclude Include="..\Codes\Vertical_Mp.h" />
+    <ClInclude Include="..\Codes\Victory_Camera.h" />
+    <ClInclude Include="..\Codes\WaveObserver.h" />
+    <ClInclude Include="..\Codes\Weapon.h" />
+    <ClInclude Include="..\Headers\Constant.h" />
+    <ClInclude Include="..\Headers\Defines.h" />
+    <ClInclude Include="..\Headers\Enum.h" />
+    <ClInclude Include="..\Headers\Macro.h" />
+    <ClInclude Include="..\Headers\Monster.h" />
+    <ClInclude Include="..\Headers\Struct.h" />
+    <ClInclude Include="..\Resources\Shaders\Shader_BackLogo.hpp" />
+    <ClInclude Include="..\Resources\Shaders\Shader_Blend.hpp" />
+    <ClInclude Include="..\Resources\Shaders\Shader_Bloom.hpp" />
+    <ClInclude Include="..\Resources\Shaders\Shader_Blur.hpp" />
+    <ClInclude Include="..\Resources\Shaders\Shader_BrightFilter.hpp" />
+    <ClInclude Include="..\Resources\Shaders\Shader_CreateGlowSource.hpp" />
+    <ClInclude Include="..\Resources\Shaders\Shader_DownFilter.hpp" />
+    <ClInclude Include="..\Resources\Shaders\Shader_DynamicMesh.hpp" />
+    <ClInclude Include="..\Resources\Shaders\Shader_EdgeDetection.hpp" />
+    <ClInclude Include="..\Resources\Shaders\Shader_Effect.hpp" />
+    <ClInclude Include="..\Resources\Shaders\Shader_FinalRendering.hpp" />
+    <ClInclude Include="..\Resources\Shaders\Shader_GaussianFilter.hpp" />
+    <ClInclude Include="..\Resources\Shaders\Shader_Light.hpp" />
+    <ClInclude Include="..\Resources\Shaders\Shader_MeshEffect.hpp" />
+    <ClInclude Include="..\Resources\Shaders\Shader_PlayerMesh.hpp" />
+    <ClInclude Include="..\Resources\Shaders\Shader_ShadowMap.hpp" />
+    <ClInclude Include="..\Resources\Shaders\Shader_Sky.hpp" />
+    <ClInclude Include="..\Resources\Shaders\Shader_StaticMesh.hpp" />
+    <ClInclude Include="..\Resources\Shaders\Shader_Terrain.hpp" />
+    <ClInclude Include="..\Resources\Shaders\Shader_TrailEffect.hpp" />
+    <ClInclude Include="..\Resources\Shaders\Shader_UI.hpp" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\ThirdParty\Headers\TinyXml2\tinyxml2.cpp" />
+    <ClCompile Include="..\Codes\3DMaxObject.cpp" />
+    <ClCompile Include="..\Codes\Accessory1.cpp" />
+    <ClCompile Include="..\Codes\Accessory2.cpp" />
+    <ClCompile Include="..\Codes\ActionCamera.cpp" />
+    <ClCompile Include="..\Codes\Aura.cpp" />
+    <ClCompile Include="..\Codes\Back_Logo.cpp" />
+    <ClCompile Include="..\Codes\Blockade.cpp" />
+    <ClCompile Include="..\Codes\BlockGroup.cpp" />
+    <ClCompile Include="..\Codes\Chat_ID.cpp" />
+    <ClCompile Include="..\Codes\Computer_Goblin.cpp" />
+    <ClCompile Include="..\Codes\Effect_Decal.cpp" />
+    <ClCompile Include="..\Codes\Effect_Magnetic_Sphere.cpp" />
+    <ClCompile Include="..\Codes\Effect_Mesh_SkyBeam.cpp" />
+    <ClCompile Include="..\Codes\FloatCamera.cpp" />
+    <ClCompile Include="..\Codes\Font_BossHP.cpp" />
+    <ClCompile Include="..\Codes\Camera_Manager.cpp" />
+    <ClCompile Include="..\Codes\Chat.cpp" />
+    <ClCompile Include="..\Codes\Chat_Message.cpp" />
+    <ClCompile Include="..\Codes\ClientNetwork.cpp" />
+    <ClCompile Include="..\Codes\CollisionManager.cpp" />
+    <ClCompile Include="..\Codes\CollisionObject.cpp" />
+    <ClCompile Include="..\Codes\CrossBow_Arrow.cpp" />
+    <ClCompile Include="..\Codes\Crystal.cpp" />
+    <ClCompile Include="..\Codes\CrystalLight.cpp" />
+    <ClCompile Include="..\Codes\EasterEgg.cpp" />
+    <ClCompile Include="..\Codes\Effect_Mesh_FogGroup1.cpp" />
+    <ClCompile Include="..\Codes\Effect_Mesh_FogGroup4.cpp" />
+    <ClCompile Include="..\Codes\Effect_Mesh_FogPlane.cpp" />
+    <ClCompile Include="..\Codes\Effect_Mesh_GlowBall.cpp" />
+    <ClCompile Include="..\Codes\Effect_Mesh_Projectile1.cpp" />
+    <ClCompile Include="..\Codes\Effect_Mesh_SplosionRings.cpp" />
+    <ClCompile Include="..\Codes\Effect_Mesh_Swirly.cpp" />
+    <ClCompile Include="..\Codes\Effect_Single_Fog.cpp" />
+    <ClCompile Include="..\Codes\Font_Exp.cpp" />
+    <ClCompile Include="..\Codes\Font_KillEnemies.cpp" />
+    <ClCompile Include="..\Codes\Font_PlayerDamage.cpp" />
+    <ClCompile Include="..\Codes\Font_RespawnTime.cpp" />
+    <ClCompile Include="..\Codes\Goblin_Camera.cpp" />
+    <ClCompile Include="..\Codes\HallOfHeroes.cpp" />
+    <ClCompile Include="..\Codes\LastManObserver.cpp" />
+    <ClCompile Include="..\Codes\LightningTower.cpp" />
+    <ClCompile Include="..\Codes\Panel_Login.cpp" />
+    <ClCompile Include="..\Codes\LowHp.cpp" />
+    <ClCompile Include="..\Codes\MissileTower.cpp" />
+    <ClCompile Include="..\Codes\Monster_Demon.cpp" />
+    <ClCompile Include="..\Codes\Panel_Boss.cpp" />
+    <ClCompile Include="..\Codes\Panel_ExpBar.cpp" />
+    <ClCompile Include="..\Codes\Panel_MonsterKill.cpp" />
+    <ClCompile Include="..\Codes\Player_Goblin.cpp" />
+    <ClCompile Include="..\Codes\Player_ID.cpp" />
+    <ClCompile Include="..\Codes\Player_Left.cpp" />
+    <ClCompile Include="..\Codes\Present.cpp" />
+    <ClCompile Include="..\Codes\Ribbon.cpp" />
+    <ClCompile Include="..\Codes\Scene_Lobby.cpp" />
+    <ClCompile Include="..\Codes\Scene_Stage2.cpp" />
+    <ClCompile Include="..\Codes\SplashDamage.cpp" />
+    <ClCompile Include="..\Codes\Stage2_SkyBall.cpp" />
+    <ClCompile Include="..\Codes\Stage2_SkyBox.cpp" />
+    <ClCompile Include="..\Codes\StandCamera.cpp" />
+    <ClCompile Include="..\Codes\DynamicCamera.cpp" />
+    <ClCompile Include="..\Codes\DynamicObject.cpp" />
+    <ClCompile Include="..\Codes\Effect_2D.cpp" />
+    <ClCompile Include="..\Codes\Effect_Frame.cpp" />
+    <ClCompile Include="..\Codes\Effect_Mesh.cpp" />
+    <ClCompile Include="..\Codes\Effect_Mesh_AuraSphere.cpp" />
+    <ClCompile Include="..\Codes\Effect_Mesh_Bolt.cpp" />
+    <ClCompile Include="..\Codes\Effect_Mesh_ElectricGroup1.cpp" />
+    <ClCompile Include="..\Codes\Effect_Mesh_ElectricGroup2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Effect_Mesh_LightningTree.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Effect_Mesh_ManaBomb.cpp" />
+    <ClCompile Include="..\Codes\Effect_Mesh_Shield.cpp" />
+    <ClCompile Include="..\Codes\Effect_Mesh_Spiral.cpp" />
+    <ClCompile Include="..\Codes\Effect_Mesh_Wave.cpp" />
+    <ClCompile Include="..\Codes\Effect_Particle.cpp" />
+    <ClCompile Include="..\Codes\Effect_RectParticle.cpp" />
+    <ClCompile Include="..\Codes\Effect_Single.cpp" />
+    <ClCompile Include="..\Codes\Effect_Trail.cpp" />
+    <ClCompile Include="..\Codes\FireTorch.cpp" />
+    <ClCompile Include="..\Codes\FireTower.cpp" />
+    <ClCompile Include="..\Codes\Font_ActivateCrystal.cpp" />
+    <ClCompile Include="..\Codes\Font_Damage.cpp" />
+    <ClCompile Include="..\Codes\Font_DefenseUnits.cpp" />
+    <ClCompile Include="..\Codes\Font_FPS.cpp" />
+    <ClCompile Include="..\Codes\Font_NavMesh.cpp" />
+    <ClCompile Include="..\Codes\Font_NextEnemies.cpp" />
+    <ClCompile Include="..\Codes\Font_Perspective.cpp" />
+    <ClCompile Include="..\Codes\Font_Player.cpp" />
+    <ClCompile Include="..\Codes\Font_Wave.cpp" />
+    <ClCompile Include="..\Codes\FrustumManager.cpp" />
+    <ClCompile Include="..\Codes\LeftDoor.cpp" />
+    <ClCompile Include="..\Codes\MapTexture.cpp" />
+    <ClCompile Include="..\Codes\MenuMap.cpp" />
+    <ClCompile Include="..\Codes\Missile.cpp" />
+    <ClCompile Include="..\Codes\Monster_Arrow.cpp" />
+    <ClCompile Include="..\Codes\Monster_DarkElfArcher.cpp" />
+    <ClCompile Include="..\Codes\MouseCol.cpp" />
+    <ClCompile Include="..\Codes\MousePointer.cpp" />
+    <ClCompile Include="..\Codes\MyEffect.cpp" />
+    <ClCompile Include="..\Codes\OldMap.cpp" />
+    <ClCompile Include="..\Codes\Panel_newBar.cpp" />
+    <ClCompile Include="..\Codes\Player_CrossBow.cpp" />
+    <ClCompile Include="..\Codes\Player_Huntress.cpp" />
+    <ClCompile Include="..\Codes\RightDoor.cpp" />
+    <ClCompile Include="..\Codes\Scene_Menu.cpp" />
+    <ClCompile Include="..\Codes\SplashMissile.cpp" />
+    <ClCompile Include="..\Codes\StaticUI.cpp" />
+    <ClCompile Include="..\Codes\StrikerTower.cpp" />
+    <ClCompile Include="..\Codes\SummonCamera.cpp" />
+    <ClCompile Include="..\Codes\TestScene_SeoChan2.cpp" />
+    <ClCompile Include="..\Codes\Text_Boss.cpp" />
+    <ClCompile Include="..\Codes\Text_Build.cpp" />
+    <ClCompile Include="..\Codes\Text_Combat.cpp" />
+    <ClCompile Include="..\Codes\Text_DefenseUnits.cpp" />
+    <ClCompile Include="..\Codes\Font_Hp.cpp" />
+    <ClCompile Include="..\Codes\Font_Level.cpp" />
+    <ClCompile Include="..\Codes\Font_MaxHp.cpp" />
+    <ClCompile Include="..\Codes\Font_MaxMp.cpp" />
+    <ClCompile Include="..\Codes\Font_Mp.cpp" />
+    <ClCompile Include="..\Codes\Font_Score.cpp" />
+    <ClCompile Include="..\Codes\Text_Electric.cpp" />
+    <ClCompile Include="..\Codes\Text_GameStart.cpp" />
+    <ClCompile Include="..\Codes\Text_Info.cpp" />
+    <ClCompile Include="..\Codes\UI_Check.cpp" />
+    <ClCompile Include="..\Codes\Text_NextEnemies.cpp" />
+    <ClCompile Include="..\Codes\Text_Phase.cpp" />
+    <ClCompile Include="..\Codes\Text_PressStart.cpp" />
+    <ClCompile Include="..\Codes\Text_RespawnIn.cpp" />
+    <ClCompile Include="..\Codes\Text_Title.cpp" />
+    <ClCompile Include="..\Codes\Text_ToLobby.cpp" />
+    <ClCompile Include="..\Codes\Text_Tower.cpp" />
+    <ClCompile Include="..\Codes\Text_Wave.cpp" />
+    <ClCompile Include="..\Codes\Monster.cpp" />
+    <ClCompile Include="..\Codes\Monster_Goblin.cpp" />
+    <ClCompile Include="..\Codes\Loading.cpp" />
+    <ClCompile Include="..\Codes\Monster_Kobold.cpp" />
+    <ClCompile Include="..\Codes\Monster_OrcBruiser.cpp" />
+    <ClCompile Include="..\Codes\Font_Number.cpp" />
+    <ClCompile Include="..\Codes\Panel_Wave.cpp" />
+    <ClCompile Include="..\Codes\Text_Name_Level.cpp" />
+    <ClCompile Include="..\Codes\OrthographicUI.cpp" />
+    <ClCompile Include="..\Codes\Panel_Level.cpp" />
+    <ClCompile Include="..\Codes\Panel_SkillIcon.cpp" />
+    <ClCompile Include="..\Codes\PerspectiveUI.cpp" />
+    <ClCompile Include="..\Codes\Player.cpp" />
+    <ClCompile Include="..\Codes\PlayerObserver.cpp" />
+    <ClCompile Include="..\Codes\Player_Mage.cpp" />
+    <ClCompile Include="..\Codes\Player_Monk.cpp" />
+    <ClCompile Include="..\Codes\Player_Spear.cpp" />
+    <ClCompile Include="..\Codes\Player_Staff.cpp" />
+    <ClCompile Include="..\Codes\RecordCamera.cpp" />
+    <ClCompile Include="..\Codes\SceneObserver.cpp" />
+    <ClCompile Include="..\Codes\Scene_Transition.cpp" />
+    <ClCompile Include="..\Codes\Text_Score.cpp" />
+    <ClCompile Include="..\Codes\Select_Logo.cpp" />
+    <ClCompile Include="..\Codes\MainApp.cpp" />
+    <ClCompile Include="..\Codes\Scene_Logo.cpp" />
+    <ClCompile Include="..\Codes\Scene_Stage.cpp" />
+    <ClCompile Include="..\Codes\MagusQuarters.cpp" />
+    <ClCompile Include="..\Codes\MiniMap.cpp" />
+    <ClCompile Include="..\Codes\SkillIcon.cpp" />
+    <ClCompile Include="..\Codes\StaticCamera.cpp" />
+    <ClCompile Include="..\Codes\StaticObject.cpp" />
+    <ClCompile Include="..\Codes\Terrain.cpp" />
+    <ClCompile Include="..\Codes\TestScene_BackChul.cpp" />
+    <ClCompile Include="..\Codes\TestScene_MinKyeong.cpp" />
+    <ClCompile Include="..\Codes\TestScene_SeoChan.cpp" />
+    <ClCompile Include="..\Codes\TestScene_SeungHo.cpp" />
+    <ClCompile Include="..\Codes\Title.cpp" />
+    <ClCompile Include="..\Codes\Tower.cpp" />
+    <ClCompile Include="..\Codes\TowerCamera.cpp" />
+    <ClCompile Include="..\Codes\TowerRadius.cpp" />
+    <ClCompile Include="..\Codes\TowerRange.cpp" />
+    <ClCompile Include="..\Codes\TowerRange2.cpp" />
+    <ClCompile Include="..\Codes\TrapMine.cpp" />
+    <ClCompile Include="..\Codes\TresureBox.cpp" />
+    <ClCompile Include="..\Codes\UI.cpp" />
+    <ClCompile Include="..\Codes\UI_MapTitle.cpp" />
+    <ClCompile Include="..\Codes\UI_Skill.cpp" />
+    <ClCompile Include="..\Codes\Vertical_Hp.cpp" />
+    <ClCompile Include="..\Codes\Vertical_Mp.cpp" />
+    <ClCompile Include="..\Codes\Victory_Camera.cpp" />
+    <ClCompile Include="..\Codes\WaveObserver.cpp" />
+    <ClCompile Include="..\Codes\Weapon.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Engine\System\Default\System.vcxproj">
+      <Project>{1723df79-8571-49b0-a12c-049bad3540f5}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Engine\Utility\Default\Utility.vcxproj">
+      <Project>{35530c8f-9429-424e-b920-b52808056e4f}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\사용중인Key.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

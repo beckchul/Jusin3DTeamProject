@@ -1,0 +1,65 @@
+﻿  AnimationCtrl.cpp
+  Camera.cpp
+  Collision.cpp
+  CollisionSphere.cpp
+  Component.cpp
+  Component_Manager.cpp
+  CubeColor.cpp
+  Cube_Texture.cpp
+  DataManager.cpp
+  DynamicMesh.cpp
+  Effect.cpp
+  EffectMgr.cpp
+  GameObject.cpp
+  HierarchyLoader.cpp
+  InfoSubject.cpp
+  Layer.cpp
+  Light.cpp
+  Light_Manager.cpp
+  Line2D.cpp
+  Management.cpp
+  컴파일하고 있습니다...
+  Material.cpp
+  MediaMgr.cpp
+  MediaObj.cpp
+  Mesh.cpp
+  Mouse_Manager.cpp
+  NavMgr.cpp
+  NaviCell.cpp
+  Network.cpp
+  Object_Manager.cpp
+  Observer.cpp
+  Particle_Texture.cpp
+  Rect_Texture.cpp
+  Renderer.cpp
+  Resources.cpp
+  Scene.cpp
+  Shader.cpp
+  Static_Mesh.cpp
+  Subject.cpp
+  Target.cpp
+  Target_Manager.cpp
+  컴파일하고 있습니다...
+  Terrain_Texture.cpp
+  Texture.cpp
+  TextureManager.cpp
+  TextureRenderer.cpp
+  Trail_Texture.cpp
+  Transform.cpp
+  VIBuffer.cpp
+  View_Texture.cpp
+     D:\포폴USB\포트폴리오\Project\06.3DTeam_Project\DDProject1\Client\Bin\Release\Utility.lib 라이브러리 및 D:\포폴USB\포트폴리오\Project\06.3DTeam_Project\DDProject1\Client\Bin\Release\Utility.exp 개체를 생성하고 있습니다.
+  코드를 생성하고 있습니다.
+  0 of 3947 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+strmbase.lib(amfilter.obj) : warning LNK4099: 'BaseClasses.pdb' PDB를 'strmbase.lib(amfilter.obj)' 또는 'D:\포폴USB\포트폴리오\Project\06.3DTeam_Project\DDProject1\Client\Bin\Release\BaseClasses.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+strmbase.lib(arithutil.obj) : warning LNK4099: 'BaseClasses.pdb' PDB를 'strmbase.lib(arithutil.obj)' 또는 'D:\포폴USB\포트폴리오\Project\06.3DTeam_Project\DDProject1\Client\Bin\Release\BaseClasses.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+strmbase.lib(combase.obj) : warning LNK4099: 'BaseClasses.pdb' PDB를 'strmbase.lib(combase.obj)' 또는 'D:\포폴USB\포트폴리오\Project\06.3DTeam_Project\DDProject1\Client\Bin\Release\BaseClasses.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+strmbase.lib(ctlutil.obj) : warning LNK4099: 'BaseClasses.pdb' PDB를 'strmbase.lib(ctlutil.obj)' 또는 'D:\포폴USB\포트폴리오\Project\06.3DTeam_Project\DDProject1\Client\Bin\Release\BaseClasses.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+strmbase.lib(mtype.obj) : warning LNK4099: 'BaseClasses.pdb' PDB를 'strmbase.lib(mtype.obj)' 또는 'D:\포폴USB\포트폴리오\Project\06.3DTeam_Project\DDProject1\Client\Bin\Release\BaseClasses.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+strmbase.lib(renbase.obj) : warning LNK4099: 'BaseClasses.pdb' PDB를 'strmbase.lib(renbase.obj)' 또는 'D:\포폴USB\포트폴리오\Project\06.3DTeam_Project\DDProject1\Client\Bin\Release\BaseClasses.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+strmbase.lib(wxlist.obj) : warning LNK4099: 'BaseClasses.pdb' PDB를 'strmbase.lib(wxlist.obj)' 또는 'D:\포폴USB\포트폴리오\Project\06.3DTeam_Project\DDProject1\Client\Bin\Release\BaseClasses.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+strmbase.lib(wxutil.obj) : warning LNK4099: 'BaseClasses.pdb' PDB를 'strmbase.lib(wxutil.obj)' 또는 'D:\포폴USB\포트폴리오\Project\06.3DTeam_Project\DDProject1\Client\Bin\Release\BaseClasses.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+  Utility.vcxproj -> D:\포폴USB\포트폴리오\Project\06.3DTeam_Project\DDProject1\Client\Bin\Release\Utility.dll

@@ -1,0 +1,43 @@
+Lshift : 미니맵 열고 닫기
+
+W,A,S,D : 플레이어 이동
+
+Numpad * : g_iClinetNum 출력
+
+Numpad 1,2 : 맵 끄고 키기
+
+0 : Main_Stage로 넘어가기
+9 : Menu로 가기
+8 : Stage2로 가기
+7 : Lobby로 가기
+
+Enter : 채팅 (혹은 Cut-Scene 넘어가기)
+
+SpaceBar : 점프, Cut-Scene 취소
+
+C : Action Cam(임시)
+
+N : 내비메쉬 보기 / 안보기
+
+F : 자유 시점 카메라로 전환
+
+H : 녹화 카메라 (F2 녹화, F3 일시정지, F4 중지)
+
+P : FPS 보이기 / 숨기기
+
+R : 렌더 타겟 보이기 / 숨기기
+
+Q : 카메라 고정 & 풀기
+
+O : 충돌 구체 보이기 & 안보이기
+
+T : 리스폰
+
+Y : 마나 풀 회복
+
+L : 몬스터 사망
+
+ESC : 윈도우 종료
+
+Stage2 
+O : 몬스터 생성

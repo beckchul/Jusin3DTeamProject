@@ -1,0 +1,5 @@
+0 : Door_Closed
+1 - 34 : Door_Closing
+35 : Door_Idle
+36 : Door_Open
+37 - 70 : Door_Opening

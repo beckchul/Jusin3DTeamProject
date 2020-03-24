@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnimationData>
+    <Index0>
+        <AnimationIndex AnimationIndex="0"/>
+        <SpeedFront SpeedFront="1"/>
+        <SpeedEnd SpeedEnd="1"/>
+        <WeightFront WeightFront="0.1"/>
+        <WeightEnd WeightEnd="0.9"/>
+        <AniCount AniCount="0.050000000000000003"/>
+        <MagicNumber MagicNumber="0.029999999999999999"/>
+    </Index0>
+    <Index1>
+        <AnimationIndex AnimationIndex="1"/>
+        <SpeedFront SpeedFront="1"/>
+        <SpeedEnd SpeedEnd="1"/>
+        <WeightFront WeightFront="0.1"/>
+        <WeightEnd WeightEnd="0.9"/>
+        <AniCount AniCount="0.050000000000000003"/>
+        <MagicNumber MagicNumber="0.029999999999999999"/>
+    </Index1>
+
+</AnimationData>

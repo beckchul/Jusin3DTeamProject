@@ -1,0 +1,490 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{6e678f2c-cb7b-44be-95c5-d91b380b329c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainApp">
+      <UniqueIdentifier>{5b772258-de31-48e8-bedb-eabba90a9f5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Headers">
+      <UniqueIdentifier>{0d867e26-9f44-4973-8818-2ebec8ada190}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene">
+      <UniqueIdentifier>{cdcba4fe-cde6-486b-bd50-321700fa803c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object">
+      <UniqueIdentifier>{20004af0-7863-483a-89e6-1384cc4266b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\00.Logo">
+      <UniqueIdentifier>{06710ef4-616f-4398-963e-e69676ea896a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\00.Logo">
+      <UniqueIdentifier>{247924d0-6be9-4ae4-b2f6-bd9f0c33f43b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01.Stage">
+      <UniqueIdentifier>{f6f3915b-25a6-4fde-b3c6-e071e7f6e27d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\99.Loading">
+      <UniqueIdentifier>{57c82ac4-99c2-4120-94d4-03c8af2aa771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\00.Logo\00.LogoBack">
+      <UniqueIdentifier>{c8791a74-3540-47f3-b360-ad95b11db34f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.ShaderFiles">
+      <UniqueIdentifier>{8f72d32f-e763-4361-b099-f6e336619b6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Effect">
+      <UniqueIdentifier>{812b5b53-689f-4bd2-ade5-7893ce7a5cc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\01.Menu">
+      <UniqueIdentifier>{795b2f39-c2a7-4823-bcf1-4640f9635676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\00.Logo\01.LogoSelect">
+      <UniqueIdentifier>{5977ea7d-a0b7-47e8-99ce-77a4beaf3b59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\98.Transition">
+      <UniqueIdentifier>{8d8de870-4958-43dd-82e2-0f96e8028b2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\97.TestScene%28테스트씬%29">
+      <UniqueIdentifier>{2d0d718c-b08f-45b3-9307-f2379e77876a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\97.TestScene%28테스트씬%29\TestScene_ChanWoo">
+      <UniqueIdentifier>{56a3778d-2937-4ddd-bc01-ac9decedc838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\97.TestScene%28테스트씬%29\TestScene_SeungHo">
+      <UniqueIdentifier>{aef9aa0e-e412-4a04-af4b-a0811a14980f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\97.TestScene%28테스트씬%29\TestScene_SeoChan">
+      <UniqueIdentifier>{dad0d1ea-0e91-4880-b593-435bdf34afb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\97.TestScene%28테스트씬%29\TestScene_BackChul">
+      <UniqueIdentifier>{21c0f07b-15bc-44be-a1cc-062256d21128}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\97.TestScene%28테스트씬%29\TestScene_MinKyeong">
+      <UniqueIdentifier>{d7e83050-93a9-4f1d-b944-a91b441629da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.TinyXml2">
+      <UniqueIdentifier>{e4a76dd1-bc64-47db-8583-986ef269665b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\02.Stage">
+      <UniqueIdentifier>{55cae0c1-90ab-4ebe-af4f-49e40254bbf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Effect\00.Effect_Frame">
+      <UniqueIdentifier>{1f424eb0-c78d-4dfc-adac-875e8305ce01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01.Stage\01.DynamicObject">
+      <UniqueIdentifier>{e7774565-13a4-415c-b634-63e6a61f6e4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01.Stage\01.DynamicObject\01.Player">
+      <UniqueIdentifier>{a1774412-2740-452f-a583-3eec89b89d28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01.Stage\01.DynamicObject\01.Player\Player_Mage">
+      <UniqueIdentifier>{ff9dd29e-54b3-4452-9798-8b914f9e0da9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01.Stage\01.DynamicObject\02.Monster">
+      <UniqueIdentifier>{f5ca688d-7fc8-4c8c-ad2c-945929430700}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01.Stage\01.DynamicObject\02.Monster\Monster_Goblin">
+      <UniqueIdentifier>{00cd4e62-a2e8-4fba-a6ff-256daf963463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01.Stage\01.DynamicObject\02.Monster\Monster_Kobold">
+      <UniqueIdentifier>{407f58b1-3f91-40f9-9be4-862d5d281525}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01.Stage\01.DynamicObject\02.Monster\Monster_OrcBruiser">
+      <UniqueIdentifier>{9e1d45b8-da21-489c-bef8-3ab78bc9ecba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01.Stage\02.StaticObject">
+      <UniqueIdentifier>{b0f31c63-e12b-48b7-87d5-6d6a64d06a78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01.Stage\02.StaticObject\Player_Staff">
+      <UniqueIdentifier>{96d78e05-1323-48f5-bb92-e43f3a0eab7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01.Stage\00.MapObject">
+      <UniqueIdentifier>{b84497f7-2c2d-4837-a64b-06feb1800db7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01.Stage\00.MapObject\00.MagusQuarters%28메인맵%29">
+      <UniqueIdentifier>{1e2272dd-2c3b-402d-95bd-032422592bc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\01.Stage\00.MapObject\01.SkyBox">
+      <UniqueIdentifier>{5f883987-27a9-4857-b8ef-901ebacd7c1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI">
+      <UniqueIdentifier>{8346422f-dfca-4758-852b-886c30d6242f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\00.OrthographicUI%28직교투영%29">
+      <UniqueIdentifier>{4ff6ff6e-a790-4a4a-8174-9d02a043e730}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\00.OrthographicUI%28직교투영%29\00.MiniMap">
+      <UniqueIdentifier>{2b7f5381-19cd-4e9b-94cb-f82c28060e72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\00.OrthographicUI%28직교투영%29\01.Panel">
+      <UniqueIdentifier>{64158f3b-8aaa-4b04-b1cd-727f18d6be02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\00.OrthographicUI%28직교투영%29\01.Panel\00.Panel_Level">
+      <UniqueIdentifier>{32710d0b-3cfb-4696-82d9-a5baa5ff08d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\00.OrthographicUI%28직교투영%29\01.Panel\01.Panel_SkillIcon">
+      <UniqueIdentifier>{f5cec41d-9603-4ffa-907e-d102a7f4b7c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\00.OrthographicUI%28직교투영%29\01.Panel\02.Panel_Wave">
+      <UniqueIdentifier>{7d0a9eca-d4c7-44ea-b056-7a1a27f50101}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\00.OrthographicUI%28직교투영%29\02.Chat">
+      <UniqueIdentifier>{253cad54-a00e-4571-adf7-c4f0c32a3602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\00.OrthographicUI%28직교투영%29\02.Chat\00.ChatMessage">
+      <UniqueIdentifier>{0d9bd66b-78fb-4787-81df-e3be27b15eb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\01.PerspectiveU%28투시투영%29">
+      <UniqueIdentifier>{78532d9e-f418-4f34-918c-d1613930b6c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\98.TestScene%28테스트씬 오브젝트%29">
+      <UniqueIdentifier>{85f4c8f2-fb4b-4c5f-ab09-2e63e18380c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\98.TestScene%28테스트씬 오브젝트%29\00.Terrain">
+      <UniqueIdentifier>{af531f28-3264-4620-a75a-4c34aaad56e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Object\98.TestScene%28테스트씬 오브젝트%29\01.FireTorch">
+      <UniqueIdentifier>{975ce7ad-39ee-4be9-a931-da795583a2b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Observer">
+      <UniqueIdentifier>{4ace61a1-9c9a-4a57-8c2c-03c4b4e94c9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Observer\00.SceneObserver">
+      <UniqueIdentifier>{b38821cc-50e3-4a9f-8bee-56b91b37064c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Observer\01.PlayerObserver">
+      <UniqueIdentifier>{cf0aa4f2-0d9e-4ac4-b5c7-65fcb4a22c92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.Server">
+      <UniqueIdentifier>{026c9a31-188d-49f1-9186-9606ebb47379}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Camera">
+      <UniqueIdentifier>{5eec9ff8-7ee0-473b-a7ef-be8cdb7f745e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Camera\00.DynamicCamera">
+      <UniqueIdentifier>{d0135c36-28c1-4a69-8dd1-ddf1e1c59733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Camera\02.RecordCamera">
+      <UniqueIdentifier>{5003ba28-e4e6-4e73-bfe5-2298e772a791}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Camera\01.StaticCamera">
+      <UniqueIdentifier>{08b84e6c-6ab7-4014-9738-e95f981cfbde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.ShaderFiles\00.DeferredShading">
+      <UniqueIdentifier>{e0106bbd-a542-446b-98c1-ff7f49d83be0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.ShaderFiles\01.Object">
+      <UniqueIdentifier>{c6c0cca8-e214-4e67-bfcb-25f12357f5f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.ShaderFiles\02.Effect">
+      <UniqueIdentifier>{2e918639-843f-4636-97cd-e6a7ceea6c74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.ShaderFiles\03.UI">
+      <UniqueIdentifier>{b0e5d57d-3f11-45c9-9f8c-5ac34bafe4e6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\MainApp.h">
+      <Filter>00.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\DynamicCamera.h">
+      <Filter>05.Camera\00.DynamicCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Scene_Logo.h">
+      <Filter>01.Scene\00.Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Scene_Stage.h">
+      <Filter>01.Scene\02.Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Loading.h">
+      <Filter>01.Scene\99.Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Back_Logo.h">
+      <Filter>02.Object\00.Logo\00.LogoBack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Select_Logo.h">
+      <Filter>02.Object\00.Logo\01.LogoSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Scene_Transition.h">
+      <Filter>01.Scene\98.Transition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\SceneObserver.h">
+      <Filter>06.Observer\00.SceneObserver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Enum.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Macro.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Defines.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\TestScene_SeungHo.h">
+      <Filter>01.Scene\97.TestScene%28테스트씬%29\TestScene_SeungHo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\TestScene_ChanWoo.h">
+      <Filter>01.Scene\97.TestScene%28테스트씬%29\TestScene_ChanWoo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\TestScene_SeoChan.h">
+      <Filter>01.Scene\97.TestScene%28테스트씬%29\TestScene_SeoChan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\TestScene_BackChul.h">
+      <Filter>01.Scene\97.TestScene%28테스트씬%29\TestScene_BackChul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\TestScene_MinKyeong.h">
+      <Filter>01.Scene\97.TestScene%28테스트씬%29\TestScene_MinKyeong</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Struct.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Player_Mage.h">
+      <Filter>02.Object\01.Stage\01.DynamicObject\01.Player\Player_Mage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Monster_Goblin.h">
+      <Filter>02.Object\01.Stage\01.DynamicObject\02.Monster\Monster_Goblin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Monster_Kobold.h">
+      <Filter>02.Object\01.Stage\01.DynamicObject\02.Monster\Monster_Kobold</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Monster_OrcBruiser.h">
+      <Filter>02.Object\01.Stage\01.DynamicObject\02.Monster\Monster_OrcBruiser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\RecordCamera.h">
+      <Filter>05.Camera\02.RecordCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ThirdParty\Headers\TinyXml2\tinyxml2.h">
+      <Filter>96.TinyXml2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\PlayerObserver.h">
+      <Filter>06.Observer\01.PlayerObserver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Monster.h">
+      <Filter>02.Object\01.Stage\01.DynamicObject\02.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\MiniMap.h">
+      <Filter>04.UI\00.OrthographicUI%28직교투영%29\00.MiniMap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\UI.h">
+      <Filter>04.UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\OrthographicUI.h">
+      <Filter>04.UI\00.OrthographicUI%28직교투영%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\PerspectiveUI.h">
+      <Filter>04.UI\01.PerspectiveU%28투시투영%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\ClientNetwork.h">
+      <Filter>07.Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Player.h">
+      <Filter>02.Object\01.Stage\01.DynamicObject\01.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Terrain.h">
+      <Filter>02.Object\98.TestScene%28테스트씬 오브젝트%29\00.Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Chat.h">
+      <Filter>04.UI\00.OrthographicUI%28직교투영%29\02.Chat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\ChatMessage.h">
+      <Filter>04.UI\00.OrthographicUI%28직교투영%29\02.Chat\00.ChatMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Effect_Frame.h">
+      <Filter>03.Effect\00.Effect_Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\FireTorch.h">
+      <Filter>02.Object\98.TestScene%28테스트씬 오브젝트%29\01.FireTorch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\DynamicObject.h">
+      <Filter>02.Object\01.Stage\01.DynamicObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Player_Staff.h">
+      <Filter>02.Object\01.Stage\02.StaticObject\Player_Staff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\StaticObject.h">
+      <Filter>02.Object\01.Stage\02.StaticObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\StaticCamera.h">
+      <Filter>05.Camera\01.StaticCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\MagusQuarters.h">
+      <Filter>02.Object\01.Stage\00.MapObject\00.MagusQuarters%28메인맵%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Resources\Shaders\Shader_Blend.hpp">
+      <Filter>97.ShaderFiles\00.DeferredShading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Resources\Shaders\Shader_Light.hpp">
+      <Filter>97.ShaderFiles\00.DeferredShading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Resources\Shaders\Shader_UI.hpp">
+      <Filter>97.ShaderFiles\03.UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Resources\Shaders\Shader_Effect.hpp">
+      <Filter>97.ShaderFiles\02.Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Resources\Shaders\Shader_BackLogo.hpp">
+      <Filter>97.ShaderFiles\01.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Resources\Shaders\Shader_Terrain.hpp">
+      <Filter>97.ShaderFiles\01.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Resources\Shaders\Shader_DynamicMesh.hpp">
+      <Filter>97.ShaderFiles\01.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Resources\Shaders\Shader_Mesh.hpp">
+      <Filter>97.ShaderFiles\01.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Resources\Shaders\Shader_Sky.hpp">
+      <Filter>97.ShaderFiles\01.Object</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\MainApp.cpp">
+      <Filter>00.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Loading.cpp">
+      <Filter>01.Scene\99.Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Scene_Logo.cpp">
+      <Filter>01.Scene\00.Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Back_Logo.cpp">
+      <Filter>02.Object\00.Logo\00.LogoBack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Scene_Stage.cpp">
+      <Filter>01.Scene\02.Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\DynamicCamera.cpp">
+      <Filter>05.Camera\00.DynamicCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Select_Logo.cpp">
+      <Filter>02.Object\00.Logo\01.LogoSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Scene_Transition.cpp">
+      <Filter>01.Scene\98.Transition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\SceneObserver.cpp">
+      <Filter>06.Observer\00.SceneObserver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\TestScene_SeungHo.cpp">
+      <Filter>01.Scene\97.TestScene%28테스트씬%29\TestScene_SeungHo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\TestScene_ChanWoo.cpp">
+      <Filter>01.Scene\97.TestScene%28테스트씬%29\TestScene_ChanWoo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\TestScene_SeoChan.cpp">
+      <Filter>01.Scene\97.TestScene%28테스트씬%29\TestScene_SeoChan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\TestScene_BackChul.cpp">
+      <Filter>01.Scene\97.TestScene%28테스트씬%29\TestScene_BackChul</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\TestScene_MinKyeong.cpp">
+      <Filter>01.Scene\97.TestScene%28테스트씬%29\TestScene_MinKyeong</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Player_Mage.cpp">
+      <Filter>02.Object\01.Stage\01.DynamicObject\01.Player\Player_Mage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Monster_Goblin.cpp">
+      <Filter>02.Object\01.Stage\01.DynamicObject\02.Monster\Monster_Goblin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Monster_Kobold.cpp">
+      <Filter>02.Object\01.Stage\01.DynamicObject\02.Monster\Monster_Kobold</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Monster_OrcBruiser.cpp">
+      <Filter>02.Object\01.Stage\01.DynamicObject\02.Monster\Monster_OrcBruiser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\RecordCamera.cpp">
+      <Filter>05.Camera\02.RecordCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ThirdParty\Headers\TinyXml2\tinyxml2.cpp">
+      <Filter>96.TinyXml2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\PlayerObserver.cpp">
+      <Filter>06.Observer\01.PlayerObserver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Monster.cpp">
+      <Filter>02.Object\01.Stage\01.DynamicObject\02.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\MiniMap.cpp">
+      <Filter>04.UI\00.OrthographicUI%28직교투영%29\00.MiniMap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\UI.cpp">
+      <Filter>04.UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\OrthographicUI.cpp">
+      <Filter>04.UI\00.OrthographicUI%28직교투영%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\PerspectiveUI.cpp">
+      <Filter>04.UI\01.PerspectiveU%28투시투영%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\ClientNetwork.cpp">
+      <Filter>07.Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Player.cpp">
+      <Filter>02.Object\01.Stage\01.DynamicObject\01.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Terrain.cpp">
+      <Filter>02.Object\98.TestScene%28테스트씬 오브젝트%29\00.Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Chat.cpp">
+      <Filter>04.UI\00.OrthographicUI%28직교투영%29\02.Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\ChatMessage.cpp">
+      <Filter>04.UI\00.OrthographicUI%28직교투영%29\02.Chat\00.ChatMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Effect_Frame.cpp">
+      <Filter>03.Effect\00.Effect_Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\FireTorch.cpp">
+      <Filter>02.Object\98.TestScene%28테스트씬 오브젝트%29\01.FireTorch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\DynamicObject.cpp">
+      <Filter>02.Object\01.Stage\01.DynamicObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Player_Staff.cpp">
+      <Filter>02.Object\01.Stage\02.StaticObject\Player_Staff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\StaticObject.cpp">
+      <Filter>02.Object\01.Stage\02.StaticObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\StaticCamera.cpp">
+      <Filter>05.Camera\01.StaticCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\MagusQuarters.cpp">
+      <Filter>02.Object\01.Stage\00.MapObject\00.MagusQuarters%28메인맵%29</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>99.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

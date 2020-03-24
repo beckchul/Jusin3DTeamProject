@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.Device">
+      <UniqueIdentifier>{1c4d946b-8b8a-40cd-ab91-ef4faea8a283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Device\InputDev">
+      <UniqueIdentifier>{905cdbdd-782c-42f4-81b6-0197b4c46726}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Device\Sound">
+      <UniqueIdentifier>{ab2f299b-a9de-4030-b2e5-57ebf98347d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Timer">
+      <UniqueIdentifier>{a8df744e-0415-4150-b008-829f0a07379e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Frame">
+      <UniqueIdentifier>{d944db12-71d7-4bb8-ad6c-331b3810cf13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Timer\Manager">
+      <UniqueIdentifier>{5cd2ceba-d033-41c0-998d-3b43781bb861}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Frame\Manager">
+      <UniqueIdentifier>{471da72e-8580-49a8-a9f0-b9f521abd78b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Device\GraphicDev">
+      <UniqueIdentifier>{b27785d6-a1c2-4547-908f-141058f1e34b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Codes\Timer.cpp">
+      <Filter>01.Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Timer_Manager.cpp">
+      <Filter>01.Timer\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Frame.cpp">
+      <Filter>02.Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\Frame_Manager.cpp">
+      <Filter>02.Frame\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\GraphicDev.cpp">
+      <Filter>00.Device\GraphicDev</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\InputDev.cpp">
+      <Filter>00.Device\InputDev</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\SoundMgr.cpp">
+      <Filter>00.Device\Sound</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Codes\GraphicDev.h">
+      <Filter>00.Device\GraphicDev</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Frame.h">
+      <Filter>02.Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Frame_Manager.h">
+      <Filter>02.Frame\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\InputDev.h">
+      <Filter>00.Device\InputDev</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Timer.h">
+      <Filter>01.Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\Timer_Manager.h">
+      <Filter>01.Timer\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codes\SoundMgr.h">
+      <Filter>00.Device\Sound</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

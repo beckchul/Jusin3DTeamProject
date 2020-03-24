@@ -1,0 +1,17 @@
+#pragma once
+#ifndef Engine_Constant_h__
+#define Engine_Constant_h__
+
+namespace Engine
+{
+	const DWORD NAV_OPTION_PLAYER_COLLISION = (DWORD)powf(2, NAV_PLAYER_COLLISION);
+	const DWORD NAV_OPTION_TOWER_ENABLE = (DWORD)powf(2, NAV_TOWER_ENABLE);
+	const DWORD NAV_OPTION_NAV_WALL = (DWORD)powf(2, NAV_WALL);
+	const DWORD NAV_OPTION_SECOND_FLOOR = (DWORD)powf(2, NAV_SECOND_FLOOR);
+	const DWORD NAV_OPTION_UPFLOOR = (DWORD)powf(2, NAV_UPFLOOR);
+	const DWORD NAV_OPTION_DROP = (DWORD)powf(2, NAV_DROP);
+	const DWORD NAV_OPTION_NOPASSAGE = (DWORD)powf(2, NAV_NOPASSAGE);
+	const DWORD NAV_OPTION_DEATH = (DWORD)powf(2, NAV_DEATH);
+}
+
+#endif

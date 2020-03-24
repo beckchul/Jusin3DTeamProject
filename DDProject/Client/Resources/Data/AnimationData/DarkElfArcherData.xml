@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnimationData>
+    <Index0>
+        <AnimationIndex AnimationIndex="0"/>
+        <SpeedFront SpeedFront="1"/>
+        <SpeedEnd SpeedEnd="1"/>
+        <WeightFront WeightFront="0.89999998"/>
+        <WeightEnd WeightEnd="0.1"/>
+        <AniCount AniCount="0.029999999999999999"/>
+        <MagicNumber MagicNumber="0.050000000000000003"/>
+    </Index0>
+    <Index1>
+        <AnimationIndex AnimationIndex="1"/>
+        <SpeedFront SpeedFront="1"/>
+        <SpeedEnd SpeedEnd="1"/>
+        <WeightFront WeightFront="0.89999998"/>
+        <WeightEnd WeightEnd="0.1"/>
+        <AniCount AniCount="0.029999999999999999"/>
+        <MagicNumber MagicNumber="0.050000000000000003"/>
+    </Index1>
+    <Index2>
+        <AnimationIndex AnimationIndex="2"/>
+        <SpeedFront SpeedFront="1"/>
+        <SpeedEnd SpeedEnd="1"/>
+        <WeightFront WeightFront="0.89999998"/>
+        <WeightEnd WeightEnd="0.1"/>
+        <AniCount AniCount="0.029999999999999999"/>
+        <MagicNumber MagicNumber="0.050000000000000003"/>
+    </Index2>
+    <Index3>
+        <AnimationIndex AnimationIndex="3"/>
+        <SpeedFront SpeedFront="1"/>
+        <SpeedEnd SpeedEnd="1"/>
+        <WeightFront WeightFront="0.89999998"/>
+        <WeightEnd WeightEnd="0.1"/>
+        <AniCount AniCount="0.029999999999999999"/>
+        <MagicNumber MagicNumber="0.050000000000000003"/>
+    </Index3>
+    <Index4>
+        <AnimationIndex AnimationIndex="4"/>
+        <SpeedFront SpeedFront="1"/>
+        <SpeedEnd SpeedEnd="1"/>
+        <WeightFront WeightFront="0.89999998"/>
+        <WeightEnd WeightEnd="0.1"/>
+        <AniCount AniCount="0.029999999999999999"/>
+        <MagicNumber MagicNumber="0.050000000000000003"/>
+    </Index4>
+    <Index5>
+        <AnimationIndex AnimationIndex="5"/>
+        <SpeedFront SpeedFront="1"/>
+        <SpeedEnd SpeedEnd="1"/>
+        <WeightFront WeightFront="0.89999998"/>
+        <WeightEnd WeightEnd="0.1"/>
+        <AniCount AniCount="0.029999999999999999"/>
+        <MagicNumber MagicNumber="0.050000000000000003"/>
+    </Index5>
+    <Index6>
+        <AnimationIndex AnimationIndex="6"/>
+        <SpeedFront SpeedFront="1"/>
+        <SpeedEnd SpeedEnd="1"/>
+        <WeightFront WeightFront="0.89999998"/>
+        <WeightEnd WeightEnd="0.1"/>
+        <AniCount AniCount="0.029999999999999999"/>
+        <MagicNumber MagicNumber="0.050000000000000003"/>
+    </Index6>
+    <Index7>
+        <AnimationIndex AnimationIndex="7"/>
+        <SpeedFront SpeedFront="1"/>
+        <SpeedEnd SpeedEnd="1"/>
+        <WeightFront WeightFront="0.89999998"/>
+        <WeightEnd WeightEnd="0.1"/>
+        <AniCount AniCount="0.029999999999999999"/>
+        <MagicNumber MagicNumber="0.050000000000000003"/>
+    </Index7>
+    <Index8>
+        <AnimationIndex AnimationIndex="8"/>
+        <SpeedFront SpeedFront="1"/>
+        <SpeedEnd SpeedEnd="1"/>
+        <WeightFront WeightFront="0.89999998"/>
+        <WeightEnd WeightEnd="0.1"/>
+        <AniCount AniCount="0.029999999999999999"/>
+        <MagicNumber MagicNumber="0.050000000000000003"/>
+    </Index8>
+    <Index9>
+        <AnimationIndex AnimationIndex="9"/>
+        <SpeedFront SpeedFront="1"/>
+        <SpeedEnd SpeedEnd="1"/>
+        <WeightFront WeightFront="0.89999998"/>
+        <WeightEnd WeightEnd="0.1"/>
+        <AniCount AniCount="0.05"/>
+        <MagicNumber MagicNumber="0.050000000000000003"/>
+    </Index9>
+    <Index10>
+        <AnimationIndex AnimationIndex="10"/>
+        <SpeedFront SpeedFront="1"/>
+        <SpeedEnd SpeedEnd="1"/>
+        <WeightFront WeightFront="0.89999998"/>
+        <WeightEnd WeightEnd="0.1"/>
+        <AniCount AniCount="0.029999999999999999"/>
+        <MagicNumber MagicNumber="0.050000000000000003"/>
+    </Index10>
+    <Index11>
+        <AnimationIndex AnimationIndex="11"/>
+        <SpeedFront SpeedFront="1"/>
+        <SpeedEnd SpeedEnd="1"/>
+        <WeightFront WeightFront="0.89999998"/>
+        <WeightEnd WeightEnd="0.1"/>
+        <AniCount AniCount="0.029999999999999999"/>
+        <MagicNumber MagicNumber="0.050000000000000003"/>
+    </Index11>
+</AnimationData>
